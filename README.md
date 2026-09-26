@@ -10,7 +10,6 @@ To anyone looking at the image, it looks like an ordinary picture. The secret is
 ### How It Works
 
 ```mermaid
-%%{init: {'theme': 'base', 'themeVariables': {'primaryColor': 'transparent', 'primaryBorderColor': '#888', 'primaryTextColor': '#000', 'lineColor': '#888', 'background': 'transparent'}}}%%
 flowchart LR
     Plaintext --> Encrypt[AES-GCM Encrypt]
     Password[Password / Key] --> Encrypt
